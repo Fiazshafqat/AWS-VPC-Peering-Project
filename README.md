@@ -7,6 +7,8 @@ Implementation  AWS VPC Peering architecture designed to enable private communic
 
 This project demonstrates the implementation of a secure AWS VPC Peering architecture designed to enable private communication between multiple VPCs within AWS.
 
+https://github.com/Fiazshafqat/AWS-VPC-Peering-Project/blob/main/vpc-peering-diagram.png.jpg?raw=true
+
 The setup includes:
 
 * Public and Private Subnets

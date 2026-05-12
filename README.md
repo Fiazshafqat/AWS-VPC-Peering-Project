@@ -80,6 +80,45 @@ This hands-on implementation strengthened my understanding of AWS networking, ro
 
 ---
 
+---
+
+# Project Screenshots
+
+## 1. AWS VPC Overview
+![image alt]([https://github.com/Fiazshafqat/AWS-VPC-Peering-Project/blob/main/vpc-peering-diagram.png.jpg?raw=true])
+
+## 2. Create 2 VPC 
+![image alt](https://github.com/Fiazshafqat/AWS-VPC-Peering-Project/blob/main/vpc.png.jpg?raw=true)
+
+## 3. Create Public and Private Subnets
+![image alt](https://github.com/Fiazshafqat/AWS-VPC-Peering-Project/blob/main/subnets.png.jpg?raw=true)
+
+## 4. Create Internet Gateway for internet access of resources inside public subnet
+![image alt](https://github.com/Fiazshafqat/AWS-VPC-Peering-Project/blob/main/igw.png.jpg?raw=true)
+
+## 5. Create NAT Gateway for communication of Public and private subnets within vpc
+![image alt](https://github.com/Fiazshafqat/AWS-VPC-Peering-Project/blob/main/nat-gw.png.jpg?raw=true)
+
+## 6. Created EC2 Instances for both VPC1 and VPC2
+![image alt](https://github.com/Fiazshafqat/AWS-VPC-Peering-Project/blob/main/ec2-instances.png.jpg?raw=true)
+
+## 7. Created Route table for both VPC
+![image alt](https://github.com/Fiazshafqat/AWS-VPC-Peering-Project/blob/main/route-table.png.jpg?raw=true)
+
+## 8. Create and Configure Peering Connection b/w vpc
+![image alt](https://github.com/Fiazshafqat/AWS-VPC-Peering-Project/blob/main/peering-created.png.jpg?raw=true)
+
+## 9. Check and verify VPC Peering status is active
+![image alt](https://github.com/Fiazshafqat/AWS-VPC-Peering-Project/blob/main/peering-active.png.jpg?raw=true)
+
+ ## 10. Route table entries for VPC1
+![image alt](https://github.com/Fiazshafqat/AWS-VPC-Peering-Project/blob/main/test-vpc1-rt.png.jpg?raw=true)
+
+ ## 11. Route table entries for VPC2
+![image alt](https://github.com/Fiazshafqat/AWS-VPC-Peering-Project/blob/main/prod-vpc2-rt.png.jpg?raw=true)
+
+## 12. Verify connectivity between instances by pinging eachother IP address
+![image alt](https://github.com/Fiazshafqat/AWS-VPC-Peering-Project/blob/main/ec2-connectivity.png.jpg?raw=true)
 ## Author
 
 **Muhammad Fiaz**
